@@ -9,12 +9,13 @@
 <body>
     <header>
         <a asp-controller="Home" asp-action="Index"><img src="~/images/MvcWebbplatsen.png" alt="Logo"/></a>
+        <span style="color: white;">Sparad telefon: @ViewData["SavedPhone"]</span>
     </header>
     <div class="container">
         <nav>
             <a asp-controller="Home" asp-action="Index">Startsidan</a>
             <a asp-controller="Home" asp-action="Cellphone">Din telefon</a>
-            <a asp-controller="Home" asp-action="Cellphone">Min telefon</a>
+            <a asp-controller="Home" asp-action="MyPhone">Min telefon</a>
             <a asp-controller="Home" asp-action="About">Om</a>
         </nav>
         <main>

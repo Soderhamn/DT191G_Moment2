@@ -7,13 +7,14 @@
 <h1>Din telefon</h1>
 
 <h2>Ange vad du har för telefon:</h2>
-<form>
+<form method="POST" action="Cellphone">
     <label for="brand">Märke:</label>
-    <input id="brand" name="brand" type="text">
+    <input id="brand" name="Brand" type="text" placeholder="Huawei">
     <label for="colour">Färg:</label>
-    <input id="colour" name="colour" type="text">
+    <input id="colour" name="Colour" type="text" placeholder="Black">
     <label for="price">Price:</label>
-    <input id="price" name="price" type="text">
+    <input id="price" name="Price" type="number" placeholder="2000">
     <input type="submit" value="Skicka">
 </form>
+<span style="font-weight: bolder; ">Din telefon: @ViewBag.CellphoneInfo </span>
 
