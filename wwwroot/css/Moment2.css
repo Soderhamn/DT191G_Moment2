@@ -1,5 +1,8 @@
 /*CSS från Moment 1.1 av: Marcus Andersson, maan2117@student.miun.se 
-2023-01-25*/
+Ändrad: 2023-02-01*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     box-sizing: border-box;
   }
@@ -7,6 +10,7 @@
   body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Open Sans', arial, sans-serif;
   }
 
 button {
@@ -32,7 +36,6 @@ button {
     border: 1px solid black;
     padding: 16px;
     overflow: hidden;
-    border: 1px solid red;
   }
 
   input {
@@ -47,7 +50,7 @@ button {
     grid-area: menu;
     background-color: lightgrey;
     border: 1px solid black;
-    border: 1px solid yellow;
+
     padding: 8px;
   }
   
@@ -76,7 +79,6 @@ button {
     display: block;
     border: 1px solid black;
     width: 100%;
-    border: 1px solid purple;
     padding: 16px;
   }
   
@@ -123,43 +125,12 @@ button {
     grid-template-rows: auto 50px;
     grid-row-gap: 16px;
     grid-column-gap: 1%;
-    
-    grid-area: container;
-  
+    padding: 16px;
   }
   
   .padding-16 {
     padding: 16px;
   }
-
-/*
-.app {
-    display: grid;
-    grid-template-areas:
-        "header"
-        "container";
-    grid-row-gap: 16px;
-    border: 1px solid green;
-}*/
-  
-  /*------Id---------*/
-  #dateParagraph {
-    padding: 4px;
-    background-color: white;
-    color: red;
-    border: 1px solid black;
-    height: 32px;
-  }
-
-#marcusKomponent {
-    background-color: red;
-    padding: 16px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    text-shadow: 1px 1px black;
-    border: 2px solid orange;
-}
   
   /*Ändra Grid till fullbredd på mobilen*/
   @media screen and (max-width: 599px) {

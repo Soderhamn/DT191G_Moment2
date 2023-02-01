@@ -1,7 +1,19 @@
-﻿
+﻿@model Moment2.Models.CellphoneModel
+
 @{
-    ViewData["Title"] = "Mobiltelefoni";
+    ViewData["Title"] = "Din telefon";
 }
 
-<h1>Mobiltelefoni</h1>
+<h1>Din telefon</h1>
+
+<h2>Ange vad du har för telefon:</h2>
+<form>
+    <label for="brand">Märke:</label>
+    <input id="brand" name="brand" type="text">
+    <label for="colour">Färg:</label>
+    <input id="colour" name="colour" type="text">
+    <label for="price">Price:</label>
+    <input id="price" name="price" type="text">
+    <input type="submit" value="Skicka">
+</form>
 
