@@ -18,7 +18,12 @@ namespace Moment2.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Cellphone()
+        {
+            return View();
+        }
+
+        public IActionResult About()
         {
             return View();
         }
